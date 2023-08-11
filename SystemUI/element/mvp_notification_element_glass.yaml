@@ -1,0 +1,9 @@
+#来电
+call_phone: {resourceId: "com.upuphone.star.launcher:id/ar_call_phone"}
+call_local: {resourceId: "com.upuphone.star.launcher:id/ar_call_local"}
+call_hangup: {resourceId: "com.upuphone.star.launcher:id/ar_call_hang_up"}
+call_pickup: {resourceId: "com.upuphone.star.launcher:id/ar_call_pick_up"}
+
+#通话
+hangup_icon: {resourceId: "com.upuphone.star.launcher:id/ar_call_hang_up_icon"}
+call_time: {resourceId: "com.upuphone.star.launcher:id/ar_call_time"}

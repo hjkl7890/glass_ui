@@ -1,0 +1,15 @@
+#短信
+send_button: {resourceId: "com.upuphone.starchat:id/send_message_button", description: "发送信息"}
+
+#qq
+search: {resourceId: "com.tencent.mobileqq:id/tvl"}
+search_result: {resourceId: "com.tencent.mobileqq:id/bgt"}
+friend: {resourceId: "com.tencent.mobileqq:id/title"}
+input: {resourceId: "com.tencent.mobileqq:id/input"}
+fun_btn: {resourceId: "com.tencent.mobileqq:id/fun_btn", text: "发送"}
+
+#微信
+search_weixin: {resourceId: "com.tencent.mm:id/j5t"}
+weixin_result: {resourceId: "com.tencent.mm:id/a27"}
+input_weixin: {resourceId: "com.tencent.mm:id/kii"}
+send_weixin: {resourceId: "com.tencent.mm:id/b8k"}

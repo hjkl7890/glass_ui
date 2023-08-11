@@ -1,0 +1,17 @@
+#超级app
+control: {resourceId: "com.upuphone.star.launcher:id/tl_tv", text: "控制"}
+notification: {resourceId: "com.upuphone.star.launcher:id/card_title", text: "通知"}
+notification_page: {resourceId: "com.upuphone.star.launcher:id/back_title", text: "通知"}
+notification_menu: {resourceId: "com.upuphone.star.launcher:id/title_notify", text: "通知"}
+choose_title: {resourceId: "com.upuphone.star.launcher:id/choose_title", text: "通知选项"}
+receive_set: {resourceId: "com.upuphone.star.launcher:id/second_title_notify", text: "接收手机通知"}
+phone_notify: {resourceId: "com.upuphone.star.launcher:id/tv_phone_notify", text: "接收手机通知"}
+smart_set: {resourceId: "com.upuphone.star.launcher:id/second_title_notify", text: "智慧提醒通知"}
+smart_notify: {resourceId: "com.upuphone.star.launcher:id/tv_smart_notify", text: "智慧提醒通知"}
+close_set: {resourceId: "com.upuphone.star.launcher:id/second_title_notify", text: "关闭所有通知"}
+close_all: {resourceId: "com.upuphone.star.launcher:id/tv_close_all", text: "关闭所有通知"}
+
+#电话
+caller_icon: {resourceId: "com.android.incallui:id/caller_icon"}
+hangup: {resourceId: "com.android.incallui:id/control_btn_decline"}
+in_call_hangup: {resourceId: "android:id/actions_container"}

@@ -1,0 +1,26 @@
+#来电
+call_phone: {resourceId: "com.upuphone.star.launcher:id/ar_call_phone"}
+call_local: {resourceId: "com.upuphone.star.launcher:id/ar_call_local"}
+call_icon: {resourceId: "com.upuphone.star.launcher:id/ar_call_icon"}
+
+#通话
+hangup_icon: {resourceId: "com.upuphone.star.launcher:id/ar_call_hang_up_icon"}
+call_time: {resourceId: "com.upuphone.star.launcher:id/ar_call_time"}
+
+#短信
+msg_icon: {resourceId: "com.upuphone.star.launcher:id/system_msg_icon"}
+msg_title: {resourceId: "com.upuphone.star.launcher:id/system_msg_title"}
+msg_time: {resourceId: "com.upuphone.star.launcher:id/system_msg_time"}
+msg_content: {resourceId: "com.upuphone.star.launcher:id/system_msg_content"}
+next_view: {resourceId: "com.upuphone.star.launcher:id/next_tip_view"}
+
+#系统通知
+system_msg_title: {resourceId: "com.upuphone.star.launcher:id/system_msg_title"}
+
+#关机弹窗
+confirm_content: {resourceId: "com.upuphone.star.launcher:id/confirm_content_group"}
+confirm_refuse: {resourceId: "com.upuphone.star.launcher:id/tv_confirm_refuse", text: "取消"}
+confirm_agree: {resourceId: "com.upuphone.star.launcher:id/tv_confirm_agree", text: "确定"}
+
+#AI语音
+ai_voice: {resourceId: "com.upuphone.ai.assistant:id/figure"}

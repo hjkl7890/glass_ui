@@ -1,0 +1,33 @@
+#来电
+incoming: {resourceId: "com.upuphone.starchat:id/incoming_phone_allow"}
+hang_up: {resourceId: "com.upuphone.starchat:id/incoming_phone_hang_up"}
+contact: {resourceId: "com.upuphone.starchat:id/incoming_contact_name"}
+#通话
+call_time: {resourceId: "com.android.systemui:id/call_time"}
+end_call: {resourceId: "com.upuphone.starchat:id/incall_end_call"}
+
+#酷狗音乐
+search_music: {resourceId: "com.kugou.android:id/u1h"}
+search_button: {resourceId: "com.kugou.android:id/cei", text: "搜索"}
+play_music: {resourceId: "com.kugou.android:id/p6n", description: "全部播放"}
+dialog: {resourceId: "com.kugou.android:id/ow7"}
+
+#连接
+connected: {resourceId: "com.android.systemui:id/app_label", text: "输入"}
+
+#超级app
+navigation: {resourceId: "com.upuphone.star.launcher:id/card_title", text: "AR实景导航"}
+open_glass: {resourceId: "com.upuphone.star.launcher:id/tv_open_ar_glass", text: "启动眼镜端"}
+tiktok: {resourceId: "com.upuphone.star.launcher:id/card_title", text: "抖音Web"}
+
+#导航
+searchBar: {resourceId: "com.upuphone.star.launcher:id/bottom_edit"}
+select_location: {resourceId: "com.upuphone.star.launcher:id/name"}
+route: {resourceId: "com.upuphone.star.launcher:id/navi_route", text: "路线"}
+start_navigation: {resourceId: "com.upuphone.star.launcher:id/navi"}
+exit: {resourceId: "com.upuphone.star.launcher:id/exit", text: "退出"}
+exit_navigation: {resourceId: "com.upuphone.star.launcher:id/exitNavi", text: "退出导航"}
+
+#抖音
+disconnect: {resourceId: "com.upuphone.star.launcher:id/btn_disconnect"}
+confirm: {resourceId: "com.upuphone.star.launcher:id/confirm", text: "确认"}
