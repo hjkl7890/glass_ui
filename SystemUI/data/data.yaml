@@ -1,0 +1,174 @@
+# ----------SystemUI测试通用数据------------
+common:
+  phone_device: "c115edde"
+  auxiliary_device: "6faa36d0"
+  glass_device: "20201000010012AJ0001W"
+  phone_number: "13881704881"
+
+
+# ----------来电未接听时通知显示用例数据----------
+test_display_no_answer:
+  number: "13166393089"
+  localContains: "上海"
+
+# ----------开始导航用例数据----------
+test_navi_incoming:
+  address: "环球中心"
+  textContains: "环球中心"
+  text: "开始导航并流转到眼镜"
+
+# ----------发送短信用例数据----------
+test_display_sms_notification:
+  content: "这是短信通知，用例id=76301"
+  number: "13166393089"
+
+# ----------发送短信用例数据----------
+test_sms_display_5s:
+  content: "这是短信通知，用例id=76301"
+  number: "13166393089"
+
+# ----------发送短信用例数据----------
+test_sms_two_click_tp:
+  content: "这是短信通知，用例id=76301"
+  number: "13166393089"
+
+# ----------长短信用例数据----------
+test_swipe_view_long_sms:
+  content: "优化调整疫情防控二十条措施发布以来，各地正在迅速贯彻落实，细化执行方案。部分城市在判定高风险区时，及时精准到单元和楼栋；有的地方在隔离
+  转运、核酸检测、医疗服务等方面，增添更多细节和温度。根据国家卫生健康委官网“落实疫情防控‘九不准’公众留言板”数据，11日到16日群众投诉量下降39%。"
+  number: "13166393089"
+
+# ----------滑动过程新短信用例数据----------
+test_swipe_receive_new_sms:
+  content0: "优化调整疫情防控二十条措施发布以来，各地正在迅速贯彻落实，细化执行方案。部分城市在判定高风险区时，及时精准到单元和楼栋；有的地方在隔离
+  转运、核酸检测、医疗服务等方面，增添更多细节和温度。根据国家卫生健康委官网“落实疫情防控‘九不准’公众留言板”数据，11日到16日群众投诉量下降39%。"
+  content1: "滑动过程新短信内容"
+  number: "13166393089"
+
+# ----------自动滚动过程新短信用例数据----------
+test_roll_receive_new_sms:
+  content0: "优化调整疫情防控二十条措施发布以来，各地正在迅速贯彻落实，细化执行方案。部分城市在判定高风险区时，及时精准到单元和楼栋；有的地方在隔离
+  转运、核酸检测、医疗服务等方面，增添更多细节和温度。根据国家卫生健康委官网“落实疫情防控‘九不准’公众留言板”数据，11日到16日群众投诉量下降39%。"
+  content1: "自动滚动过程新短信内容"
+  number: "13166393089"
+
+# ----------长短信用例数据----------
+test_roll_power:
+  content: "优化调整疫情防控二十条措施发布以来，各地正在迅速贯彻落实，细化执行方案。部分城市在判定高风险区时，及时精准到单元和楼栋；有的地方在隔离
+  转运、核酸检测、医疗服务等方面，增添更多细节和温度。根据国家卫生健康委官网“落实疫情防控‘九不准’公众留言板”数据，11日到16日群众投诉量下降39%。"
+  number: "13166393089"
+
+# ----------长短信用例数据----------
+test_swipe_no_roll:
+  content: "优化调整疫情防控二十条措施发布以来，各地正在迅速贯彻落实，细化执行方案。部分城市在判定高风险区时，及时精准到单元和楼栋；有的地方在隔离
+  转运、核酸检测、医疗服务等方面，增添更多细节和温度。根据国家卫生健康委官网“落实疫情防控‘九不准’公众留言板”数据，11日到16日群众投诉量下降39%。"
+  number: "13166393089"
+
+# ----------低电量用例数据----------
+test_low_battery_reminder:
+  text: "系统通知"
+  textContains: "低于15%"
+
+# ----------电量充满用例数据----------
+test_full_battery_reminder:
+  text: "系统通知"
+  textContains: "已达100%"
+
+# ----------关机弹窗用例数据----------
+test_shutdown_confirm_popup:
+  textContains: "确定要关机吗?"
+
+test_music_shutdown_confirm:
+  textContains: "确定要关机吗?"
+
+test_video_shutdown_confirm:
+  textContains: "确定要关机吗?"
+
+test_navi_shutdown_confirm:
+  textContains: "确定要关机吗?"
+  address: "中国华商金融中心"
+  addContains: "中国华商金融中心"
+  text: "开始导航并流转到眼镜"
+
+test_card_shutdown_confirm:
+  textContains: "确定要关机吗?"
+
+# ----------发送qq用例数据----------
+test_app_notification_display:
+  username: "1筆"
+  content: "这是qq通知，用例id=76322"
+  friend_name: "寻梦"
+
+test_long_text_im_message:
+  username: "1筆"
+  content: "优化调整疫情防控二十条措施发布以来，各地正在迅速贯彻落实，细化执行方案。部分城市在判定高风险区时，及时精准到单元和楼栋；有的地方在隔离
+  转运、核酸检测、医疗服务等方面，增添更多细节和温度。根据国家卫生健康委官网“落实疫情防控‘九不准’公众留言板”数据，11日到16日群众投诉量下降39%。"
+  friend_name: "∷呢木∥"
+
+test_im_display_5s:
+  username: "1筆"
+  content: "这是qq通知，用例id=76322"
+  friend_name: "∷呢木∥"
+
+test_swipe_view_long_im:
+  username: "1筆"
+  content: "优化调整疫情防控二十条措施发布以来，各地正在迅速贯彻落实，细化执行方案。部分城市在判定高风险区时，及时精准到单元和楼栋；有的地方在隔离
+  转运、核酸检测、医疗服务等方面，增添更多细节和温度。根据国家卫生健康委官网“落实疫情防控‘九不准’公众留言板”数据，11日到16日群众投诉量下降39%。"
+  friend_name: "∷呢木∥"
+
+test_im_two_click_tp:
+  username: "1筆"
+  content: "这是qq通知，用例id=76322"
+  friend_name: "∷呢木∥"
+
+test_swipe_no_roll_im:
+  username: "1筆"
+  content: "优化调整疫情防控二十条措施发布以来，各地正在迅速贯彻落实，细化执行方案。部分城市在判定高风险区时，及时精准到单元和楼栋；有的地方在隔离
+  转运、核酸检测、医疗服务等方面，增添更多细节和温度。根据国家卫生健康委官网“落实疫情防控‘九不准’公众留言板”数据，11日到16日群众投诉量下降39%。"
+  friend_name: "∷呢木∥"
+
+test_multiple_notifications_5s:
+  username: "1筆"
+  friend_name: "∷呢木∥"
+
+test_notification_power:
+  username: "1筆"
+  content: "这是qq通知，用例id=76322"
+  friend_name: "∷呢木∥"
+
+test_multiple_notifications_display_latest:
+  username: "1筆"
+  friend_name: "∷呢木∥"
+
+test_multiple_notifications_stack_display:
+  username: "1筆"
+  friend_name: "∷呢木∥"
+
+test_call_first_display:
+  username: "1筆"
+  content: "这是qq通知，用例id=76322"
+  friend_name: "∷呢木∥"
+
+test_in_call_notifications_display:
+  username: "1筆"
+  content: "这是qq通知，用例id=76322"
+  friend_name: "∷呢木∥"
+
+test_multi_notification_tp_interaction:
+  username: "1筆"
+  friend_name: "∷呢木∥"
+
+test_shutdown_higher_notification:
+  username: "1筆"
+  content: "这是qq通知，用例id=76322"
+  friend_name: "∷呢木∥"
+
+test_multi_notification_auto_close:
+  username: "1筆"
+  friend_name: "∷呢木∥"
+
+# ----------发送微信用例数据----------
+test_other_notification:
+  username: "13166393089"
+  content: "这是微信通知，用例id=76332"
+  friend_name: "自己时代"
